@@ -650,6 +650,7 @@ img {
   gap: 10px;
   margin-bottom: 25px;
 }
+
 .tokenomics__item {
   -webkit-box-flex: 0;
       -ms-flex: none;
@@ -658,10 +659,23 @@ img {
   width: 186px;
   border: 3px solid #C8ADFB;
   border-radius: 5px;
-  background: #681BFF url("../img/token-item.svg") no-repeat center;
+
   text-transform: uppercase;
   font-size: 18px;
 }
+
+.tokenomics__item.item1{
+  background: #681BFF url("../img/token-item.svg") no-repeat center;
+}
+
+.tokenomics__item.item2{
+  background: #C80036 url("../img/token-item.svg") no-repeat center;
+}
+
+.tokenomics__item.item3{
+  background: #83B4FF url("../img/token-item.svg") no-repeat center;
+}
+
 .tokenomics__item:before {
   content: "";
   display: block;
