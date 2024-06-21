@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="b" data-name="Слой 2" xmlns="http://www.w3.org/2000/svg" width="4000" height="3999.12" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 4000 3999.12">
+  <defs>
+    <linearGradient id="e" data-name="Безымянный градиент" x1="2078.71" y1="1289.14" x2="2544.07" y2="983.38" gradientTransform="translate(0 1844.21)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fffcf4"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="f" data-name="Безымянный градиент" x1="1727.58" y1="1460.02" x2="2516.58" y2="941.61" xlink:href="#e"/>
+    <linearGradient id="g" data-name="Безымянный градиент" x1="1388.37" y1="1573.8" x2="2466.53" y2="865.43" xlink:href="#e"/>
+    <linearGradient id="h" data-name="Безымянный градиент" x1="1075.9" y1="1625.72" x2="2396.12" y2="758.26" xlink:href="#e"/>
+    <linearGradient id="i" data-name="Безымянный градиент" x1="803.81" y1="1613.27" x2="2308.37" y2="624.7" xlink:href="#e"/>
+    <linearGradient id="j" data-name="Безымянный градиент" x1="583.97" y1="1537.14" x2="2207.15" y2="470.7" xlink:href="#e"/>
+    <linearGradient id="k" data-name="Безымянный градиент" x1="426.06" y1="1400.62" x2="2096.88" y2="302.84" xlink:href="#e"/>
+    <linearGradient id="l" data-name="Безымянный градиент" x1="232.29" y1="1105.65" x2="1903.09" y2="7.88" xlink:href="#e"/>
+    <linearGradient id="m" data-name="Безымянный градиент" x1="169.64" y1="906.51" x2="1792.82" y2="-159.96" xlink:href="#e"/>
+    <linearGradient id="n" data-name="Безымянный градиент" x1="187.04" y1="674.54" x2="1691.61" y2="-313.98" xlink:href="#e"/>
+    <linearGradient id="o" data-name="Безымянный градиент" x1="283.66" y1="419.88" x2="1603.86" y2="-447.53" xlink:href="#e"/>
+    <linearGradient id="p" data-name="Безымянный градиент" x1="455.3" y1="153.65" x2="1533.44" y2="-554.71" xlink:href="#e"/>
+    <linearGradient id="q" data-name="Безымянный градиент" x1="694.46" y1="-112.5" x2="1483.38" y2="-630.87" xlink:href="#e"/>
+    <linearGradient id="r" data-name="Безымянный градиент" x1="990.6" y1="-366.94" x2="1455.97" y2="-672.68" xlink:href="#e"/>
+    <linearGradient id="s" data-name="Безымянный градиент" x1="1330.97" y1="-598.57" x2="1573.63" y2="-758.02" xlink:href="#e"/>
+    <linearGradient id="t" data-name="Безымянный градиент" x1="1455.96" y1="-672.67" x2="1921.3" y2="-978.4" xlink:href="#e"/>
+    <linearGradient id="u" data-name="Безымянный градиент" x1="1483.4" y1="-630.88" x2="2272.4" y2="-1149.29" xlink:href="#e"/>
+    <linearGradient id="v" data-name="Безымянный градиент" x1="1533.44" y1="-554.71" x2="2611.63" y2="-1263.12" xlink:href="#e"/>
+    <linearGradient id="w" data-name="Безымянный градиент" x1="1603.88" y1="-447.56" x2="2924.11" y2="-1314.95" xlink:href="#e"/>
+    <linearGradient id="x" data-name="Безымянный градиент" x1="1691.6" y1="-313.99" x2="3196.2" y2="-1302.55" xlink:href="#e"/>
+    <linearGradient id="y" data-name="Безымянный градиент" x1="1792.83" y1="-159.95" x2="3416" y2="-1226.42" xlink:href="#e"/>
+    <linearGradient id="z" data-name="Безымянный градиент" x1="1903.09" y1="7.87" x2="3573.95" y2="-1089.91" xlink:href="#e"/>
+    <linearGradient id="aa" data-name="Безымянный градиент" x1="2096.91" y1="302.85" x2="3767.72" y2="-794.93" xlink:href="#e"/>
+    <linearGradient id="ab" data-name="Безымянный градиент" x1="2207.16" y1="470.69" x2="3830.34" y2="-595.81" xlink:href="#e"/>
+    <linearGradient id="ac" data-name="Безымянный градиент" x1="2308.38" y1="624.72" x2="3812.94" y2="-363.82" xlink:href="#e"/>
+    <linearGradient id="ad" data-name="Безымянный градиент" x1="2396.1" y1="758.24" x2="3716.35" y2="-109.18" xlink:href="#e"/>
+    <linearGradient id="ae" data-name="Безымянный градиент" x1="2466.54" y1="865.44" x2="3544.73" y2="157.07" xlink:href="#e"/>
+    <linearGradient id="af" data-name="Безымянный градиент" x1="2516.59" y1="941.61" x2="3305.55" y2="423.22" xlink:href="#e"/>
+    <linearGradient id="ag" data-name="Безымянный градиент" x1="2544.02" y1="983.41" x2="3009.42" y2="677.65" xlink:href="#e"/>
+    <linearGradient id="ah" data-name="Безымянный градиент" x1="2426.3" y1="1068.8" x2="2668.96" y2="909.33" xlink:href="#e"/>
+  </defs>
+  <g id="c" data-name="Слой 1">
+    <g id="d" data-name="c">
+      <g opacity=".45">
+        <path d="m2589.59,3910.9l-589.57-1911.34,860.12,1805.86-270.54,105.48h0Z" fill="url(#e)" stroke-width="0"/>
+        <path d="m2179.32,3991.76l-179.33-1992.17,465.87,1945.21-286.55,46.96Z" fill="url(#f)" stroke-width="0"/>
+        <path d="m1761.2,3985.47l238.78-1985.91,51.24,1999.56-290.02-13.65Z" fill="url(#g)" stroke-width="0"/>
+        <path d="m1353.53,3892.46l646.46-1892.88-365.59,1966.54-280.87-73.66Z" fill="url(#h)" stroke-width="0"/>
+        <path d="m974.11,3716.67l1025.88-1717.11-766.47,1847.55-259.41-130.44h0Z" fill="url(#i)" stroke-width="0"/>
+        <path d="m639.53,3465.87l1360.46-1466.28-1133.85,1647.81-226.64-181.52h.03Z" fill="url(#j)" stroke-width="0"/>
+        <path d="m1999.99,1999.59L364.38,3150.96l183.93,224.68,1451.67-1376.06h0Z" fill="url(#k)" stroke-width="0"/>
+        <path d="m160.76,2785.72l133.2,258,1706.03-1044.16L160.76,2785.72Z" fill="url(#l)" stroke-width="0"/>
+        <path d="m37.49,2386.12l1962.5-386.56L114.12,2666.22l-76.63-280.07v-.03Z" fill="url(#m)" stroke-width="0"/>
+        <path d="m0,1969.67l1999.99,29.91L16.75,2259.56,0,1969.67Z" fill="url(#n)" stroke-width="0"/>
+        <path d="m49.93,1554.5l1950.06,445.08L6.02,1841.53l43.88-287.03h.03Z" fill="url(#o)" stroke-width="0"/>
+        <path d="m185.08,1158.79l1814.91,840.8L82.47,1430.4l102.61-271.62Z" fill="url(#p)" stroke-width="0"/>
+        <path d="m399.54,799.81l1600.44,1199.78L242.72,1044.18l156.83-244.38h0Z" fill="url(#q)" stroke-width="0"/>
+        <path d="m683.95,493.27l1316.04,1506.31L479.73,699.68l204.21-206.41h0Z" fill="url(#r)" stroke-width="0"/>
+        <path d="m1025.88,252.56l-242.66,159.45,1216.77,1587.57L1025.88,252.56Z" fill="url(#s)" stroke-width="0"/>
+        <path d="m1410.41,88.22l589.57,1911.37L1139.89,193.72l270.52-105.5Z" fill="url(#t)" stroke-width="0"/>
+        <path d="m1820.68,7.41l179.3,1992.15L1534.14,54.34,1820.68,7.41h0Z" fill="url(#u)" stroke-width="0"/>
+        <path d="m2238.8,13.65l-238.81,1985.94L1948.75,0l290.05,13.65Z" fill="url(#v)" stroke-width="0"/>
+        <path d="m2646.47,106.68l-646.49,1892.88L2365.6,33.05l280.87,73.66v-.03Z" fill="url(#w)" stroke-width="0"/>
+        <path d="m3025.89,282.48l-1025.91,1717.11L2766.48,152.01l259.41,130.44v.03Z" fill="url(#x)" stroke-width="0"/>
+        <path d="m3360.47,533.28l-1360.48,1466.28L3133.86,351.75l226.61,181.52h0Z" fill="url(#y)" stroke-width="0"/>
+        <path d="m3635.62,848.18l-183.96-224.68-1451.67,1376.06,1635.63-1151.4v.03Z" fill="url(#z)" stroke-width="0"/>
+        <path d="m3706.04,955.4l-1706.03,1044.18,1839.23-786.16-133.2-258.02Z" fill="url(#aa)" stroke-width="0"/>
+        <path d="m3962.51,1612.99l-1962.53,386.59,1885.89-666.66,76.63,280.07Z" fill="url(#ab)" stroke-width="0"/>
+        <path d="m4000,2029.47l-2000.01-29.91,1983.26-259.95,16.75,289.86Z" fill="url(#ac)" stroke-width="0"/>
+        <path d="m3950.07,2444.62l-1950.08-445.06,1993.99,158.03-43.91,287.03Z" fill="url(#ad)" stroke-width="0"/>
+        <path d="m3814.92,2840.36l-1814.91-840.8,1917.52,569.16-102.61,271.64Z" fill="url(#ae)" stroke-width="0"/>
+        <path d="m3600.46,3199.34l-1600.47-1199.75,1757.32,955.4-156.85,244.35Z" fill="url(#af)" stroke-width="0"/>
+        <path d="m3316.05,3505.87l-1316.04-1506.31,1520.25,1299.88-204.21,206.43h0Z" fill="url(#ag)" stroke-width="0"/>
+        <path d="m3216.78,3587.13l-1216.8-1587.57,974.11,1746.99,242.69-159.42Z" fill="url(#ah)" stroke-width="0"/>
+      </g>
+    </g>
+  </g>
+</svg>
