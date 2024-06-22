@@ -1243,3 +1243,72 @@ a.team-item__img {
 .how-buy__item:nth-child(4) {
   padding: 225px 0 0;
 }
+
+
+/* animation */
+.ballon_animation{
+  animation: ballon 9s linear infinite;
+  -webkit-animation: ballon 9s linear infinite;
+}
+
+@keyframes ballon {
+  0%,100%{
+      transform: translateY(0%);
+      -webkit-transform: translateY(0%);
+      -moz-transform: translateY(0%);
+      -ms-transform: translateY(0%);
+      -o-transform: translateY(0%);
+  }
+  50%{
+      transform: translateY(10%);
+      -webkit-transform: translateY(10%);
+      -moz-transform: translateY(10%);
+      -ms-transform: translateY(10%);
+      -o-transform: translateY(10%);
+}
+}
+
+.zoom_animation{
+    animation: zoom_animation 10s linear infinite;
+    -webkit-animation: zoom_animation 10s linear infinite;
+}
+
+@keyframes zoom_animation { 
+    0%,100%{
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+    }
+    50%{
+        transform: scale(1.05);
+        -webkit-transform: scale(1.05);
+        -moz-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        -o-transform: scale(1.05);
+}
+}
+
+
+.float_animation{
+  animation: float 9s linear infinite;
+  -webkit-animation: float 9s linear infinite;
+}
+
+@keyframes float {
+  0%,100%{
+      transform: translateY(0%);
+      -webkit-transform: translateY(0%);
+      -moz-transform: translateY(0%);
+      -ms-transform: translateY(0%);
+      -o-transform: translateY(0%);
+  }
+  50%{
+      transform: translateY(15%);
+      -webkit-transform: translateY(15%);
+      -moz-transform: translateY(15%);
+      -ms-transform: translateY(15%);
+      -o-transform: translateY(15%);
+}
+}

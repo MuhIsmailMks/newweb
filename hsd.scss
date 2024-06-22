@@ -1,3 +1,21 @@
-.f{
-    background-color: #4badfd;
+.zoom_animation{
+    animation: zoom_animation 3s linear infinite;
+    -webkit-animation: zoom_animation 3s linear infinite;
+}
+
+@keyframes zoom_animation { 
+    0%,100%{
+        transform: sta;
+        -webkit-transform: sta;
+        -moz-transform: sta;
+        -ms-transform: sta;
+        -o-transform: sta;
+}
+    50%{
+        transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        -o-transform: scale(1.1);
+}
 }
