@@ -669,11 +669,11 @@ img {
 }
 
 .tokenomics__item.item2{
-  background: #C80036 url("../img/token-item.svg") no-repeat center;
+  background: #a74bfd url("../img/token-item.svg") no-repeat center;
 }
 
 .tokenomics__item.item3{
-  background: #83B4FF url("../img/token-item.svg") no-repeat center;
+  background: #4badfd url("../img/token-item.svg") no-repeat center;
 }
 
 .tokenomics__item:before {
