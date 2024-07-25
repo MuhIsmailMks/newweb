@@ -38,15 +38,23 @@
       <header class="header">
         <div class="container-fluid">
           <div class="header__grid">
-            <div class="header__logo">
+            <div class="header__logo" data-aos="fade-right"
+			data-aos-duration="500"
+			data-aos-delay="400">
               <img src="assets/img/favicon.png" alt="$WPEPE" class="max-w-[100px]"/>
             </div>
 
-            <ul class="header__menu js-menu">
+            <ul class="header__menu js-menu" >
               <!-- <li><a href="#page">Home</a></li> -->
-              <li><a href="#about">About us</a></li>
-              <li><a href="#tokenomics">PEPENOMICS</a></li>
-              <li><a href="#how-buy">How to buy</a></li>
+              <li><a href="#about" data-aos="fade-up"
+				data-aos-duration="500"
+				data-aos-delay="400">About us</a></li>
+              <li><a href="#tokenomics" data-aos="fade-up"
+				data-aos-duration="500"
+				data-aos-delay="400">PEPENOMICS</a></li>
+              <li><a href="#how-buy" data-aos="fade-up"
+				data-aos-duration="500"
+				data-aos-delay="400">How to buy</a></li>
               <!-- <li><a href="#community">Community</a></li> -->
             </ul>
 
@@ -54,7 +62,9 @@
 						
 					</div> -->
             <div
-              class="media_social z-10 flex justify-center items-center w-auto relative gap-[1.5rem]"
+              class="media_social z-10 flex justify-center items-center w-auto relative gap-[1.5rem]" data-aos="fade-left"
+			  data-aos-duration="500"
+			  data-aos-delay="400"
             >
               <div class="social_container hover:scale-110 duration-300">
                 <a
@@ -115,12 +125,16 @@
               alt
               class="_cloud-second animate__animated animate__zoomInRight"
             />
-            <img
-              src="assets/img/bann-img.png"
-              alt
-              class="_main animate__animated animate__fadeInUp zoom_animation"
-              style="animation-duration: 20s;"
-            />
+            <div class="relative" data-aos="zoom-in"
+			data-aos-duration="500"
+			data-aos-delay="200">
+				<img
+				src="assets/img/bann-img.png"
+				alt
+				class="_main animate__animated animate__fadeInUp zoom_animation"
+				style="animation-duration: 20s;"
+			  />
+			</div>
           </div>
           <div class="bann__bottom">
             <div class="bann__bottom-left">0xxx…</div>
@@ -258,7 +272,7 @@
       <!-- Main BG  -->
       <div class="main-bg">
         <div class="main-bg__ellips">
-          <img src="assets/img/main-ellips.svg" alt />
+          <img src="assets/img/main-ellips.svg" alt class="opacity-[0.5]"/>
         </div>
         <div class="main-bg__flags">
           <img src="assets/img/community_flag.svg" alt />
