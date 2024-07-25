@@ -57,6 +57,8 @@ body {
   font-family: "MessinaSansMonoWeb-Regular", sans-serif;
   line-height: 1.35;
   color: #fff;
+  /* cursor: url('./assets/img/twitter_logo.svg'), auto; */
+
 }
 
 a {
