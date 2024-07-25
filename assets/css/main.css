@@ -53,7 +53,7 @@ body {
   position: relative;
   overflow-x: hidden;
   min-width: 320px;
-  background: #2eb625;
+  background: #3D7F33;
   font-family: "MessinaSansMonoWeb-Regular", sans-serif;
   line-height: 1.35;
   color: #fff;
@@ -445,7 +445,7 @@ img {
   -webkit-transform: translate(-50%, -48%);
       -ms-transform: translate(-50%, -48%);
           transform: translate(-50%, -48%);
-  background: radial-gradient(50% 50% at 50% 50%, #A0FF9A 0%, #2eb625 100%);
+  background: radial-gradient(50% 50% at 50% 50%, #A0FF9A 0%, #3D7F33 100%);
 }
 .bann__balls {
   position: absolute;
