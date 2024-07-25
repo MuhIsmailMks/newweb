@@ -1,6 +1,7 @@
 .zoom_animation{
     animation: zoom_animation 3s linear infinite;
     -webkit-animation: zoom_animation 3s linear infinite;
+    color: #379225;
 }
 
 @keyframes zoom_animation { 
