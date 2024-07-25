@@ -415,6 +415,7 @@
   .copy-box__text {
     left: 15px;
     right: 80px;
+    font-size:.9rem;
   }
   .copy-box__btn {
     top: 2px;
@@ -450,7 +451,7 @@
     max-width: 500vw;
   }
   .header__logo {
-    display: none;
+    /* display: none; */
   }
   .header__buttons {
     -webkit-box-flex: 1;
