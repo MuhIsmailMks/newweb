@@ -499,6 +499,7 @@ img {
 .bann__img ._main {
   -webkit-animation-delay: 0.4s;
           animation-delay: 0.4s;
+  margin:0 auto;
 }
 .bann__img ._cloud-first {
   position: absolute;
@@ -1096,6 +1097,9 @@ img {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+.footer_text{
+  font-size:.7rem;
 }
 .footer__menu a {
   text-decoration: none;

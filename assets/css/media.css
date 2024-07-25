@@ -521,6 +521,9 @@
     max-width: none;
     font-size: 14px;
   }
+  .footer_text{
+    font-size:.5rem;
+  }
 }
 /*==========  Mobile First Method  ==========*/
 @media (min-width: 1200px) {
