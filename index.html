@@ -1,349 +1,453 @@
 <!DOCTYPE html>
-<html lang="en"> 
- <meta http-equiv="content-type" content="text/html;charset=UTF-8" /> 
-<head>
+<html lang="en">
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <head>
+    <meta charset="utf-8" />
 
-	<meta charset="utf-8">
+    <title>$WPEPE</title>
+    <meta name="description" content="" />
 
-<title>$WPEPE</title>
-<meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.png"
+      type="image/x-icon"
+    />
 
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+    <!-- AOS scroll effect cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    />
 
-<!-- AOS scroll effect cdn --> 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+    <!-- tailwind css cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
 
-<!-- tailwind css cdn -->
-<script src="https://cdn.tailwindcss.com"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/libs/normalize.css" />
+    <link rel="stylesheet" href="assets/libs/animate.min.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/media.css" />
+    <!-- CSS End -->
+  </head>
 
-<!-- CSS -->
-<link rel="stylesheet" href="assets/libs/normalize.css">
-<link rel="stylesheet" href="assets/libs/animate.min.css">
-<link rel="stylesheet" href="assets/css/main.css">
-<link rel="stylesheet" href="assets/css/media.css">
-<!-- CSS End -->
+  <body>
+    <!-- Page -->
+    <div id="page">
+      <header class="header">
+        <div class="container-fluid">
+          <div class="header__grid">
+            <div class="header__logo">
+              <img src="assets/img/favicon.png" alt="$WPEPE" class="max-w-[100px]"/>
+            </div>
 
+            <ul class="header__menu js-menu">
+              <!-- <li><a href="#page">Home</a></li> -->
+              <li><a href="#about">About us</a></li>
+              <li><a href="#tokenomics">PEPENOMICS</a></li>
+              <li><a href="#how-buy">How to buy</a></li>
+              <!-- <li><a href="#community">Community</a></li> -->
+            </ul>
 
-</head>
-
-<body>
-
-	<!-- Page -->
-	<div id="page">
-
-		<header class="header">
-			<div class="container-fluid">
-				<div class="header__grid">
-
-					<div class="header__logo"><img src="assets/img/logo.svg" alt="$WPEPE"></div>
-
-					<ul class="header__menu js-menu">
-						<!-- <li><a href="#page">Home</a></li> -->
-						<li><a href="#about">About us</a></li>
-						<li><a href="#tokenomics">PEPENOMICS</a></li>
-						<li><a href="#how-buy">How to buy</a></li>
-						<!-- <li><a href="#community">Community</a></li> -->
-					</ul>
-
-					<!-- <div class="header__buttons"> 
+            <!-- <div class="header__buttons"> 
 						
 					</div> -->
-					<div  class="media_social z-10 flex justify-center items-center w-auto relative gap-[1.5rem]">
+            <div
+              class="media_social z-10 flex justify-center items-center w-auto relative gap-[1.5rem]"
+            >
+              <div class="social_container hover:scale-110 duration-300">
+                <a
+                  href="https://web.telegram.org/"
+                  target="_blank"
+                  class="social hover:scale-110 duration-300 w-[40px] h-[40px] lg:w-[59.77px] lg:h-[59.77px] bg-[#379225] rounded-full border-[#060205] border-[.75px] flex justify-center items-center"
+                >
+                  <img
+                    src="./assets/img/tele_logo.svg"
+                    alt=""
+                    class="h-auto object-contain w-[50%]"
+                  />
+                </a>
+              </div>
+              <div class="social_container hover:scale-110 duration-300">
+                <a
+                  target="_blank"
+                  href="https://www.x.com/"
+                  class="social hover:scale-110 duration-300 w-[40px] h-[40px] lg:w-[59.77px] lg:h-[59.77px] bg-[#379225] rounded-full border-[#060205] border-[.75px] flex justify-center items-center"
+                >
+                  <img
+                    src="./assets/img/twitter_logo.svg"
+                    alt=""
+                    class="h-auto object-contain w-[50%]"
+                  />
+                </a>
+              </div>
+            </div>
 
-						<div class="social_container hover:scale-110 duration-300 "  >
-						<a href="https://web.telegram.org/" target="_blank" class="social hover:scale-110 duration-300 w-[40px] h-[40px] lg:w-[59.77px] lg:h-[59.77px] bg-[#379225] rounded-full border-[#060205] border-[.75px] flex justify-center items-center">
-							<img src="./assets/img/tele_logo.svg" alt="" class="h-auto object-contain w-[50%]">
-						</a>
-						</div>
-						<div class="social_container hover:scale-110 duration-300 "  >
-						<a target="_blank" href="https://www.x.com/" class="social hover:scale-110 duration-300 w-[40px] h-[40px] lg:w-[59.77px] lg:h-[59.77px] bg-[#379225] rounded-full border-[#060205] border-[.75px] flex justify-center items-center">
-							<img src="./assets/img/twitter_logo.svg" alt="" class="h-auto object-contain w-[50%]">
-						</a>
-						</div> 
-						
-					</div>
+            <button class="header__sandwich"><i></i><i></i></button>
+          </div>
+        </div>
+      </header>
 
-					<button class="header__sandwich"><i></i><i></i></button>
-
-				</div>
-			</div>
-		</header>
-
-		<section class="bann">
-			<div class="container-fluid">
-				<div class="animate__animated animate__bounceInDown"> 
-
-					<!-- <div class="copy-box flex items-center">
+      <section class="bann">
+        <div class="container-fluid">
+          <div class="animate__animated animate__bounceInDown">
+            <!-- <div class="copy-box flex items-center">
 						<div class="copy-box__text">0x000000000000000000dEAD</div>
 						<button class="copy-box__btn">Copy</button>
 					</div> -->
 
-					<div class="bann__subhead">Wrapping the most memeable memecoin in existence</div>
-				</div>
-				<div class="bann__head animate__animated animate__jackInTheBox">$WPEPE</div>
-				<div class="bann__img ">
-					<img src="assets/img/bann-cloud-1.svg" alt class="_cloud-first animate__animated animate__zoomInLeft ">
-					<img src="assets/img/bann-cloud-2.svg" alt class="_cloud-second animate__animated animate__zoomInRight ">
-					<img src="assets/img/bann-img.png" alt class="_main animate__animated animate__fadeInUp zoom_animation" style="animation-duration: 20s;">
-				</div>
-				<div class="bann__bottom">
-					<div class="bann__bottom-left">0xxx…</div>
-					<div class="bann__bottom-links">
-						<!-- <a href="#" target="_blank">bscscan</a> -->
-					</div>
-				</div>
-			</div>
-			<div class="bann__balls ">
-				<div class="ballon_animation">
-					<img src="assets/img/bann-balls.svg" alt class="animate__animated animate__bounceIn ">
-				</div>
-			</div>
-		</section>
+            <div class="bann__subhead">
+              Wrapping the most memeable memecoin in existence
+            </div>
+          </div>
+          <div class="bann__head animate__animated animate__jackInTheBox">
+            $WPEPE
+          </div>
+          <div class="bann__img">
+            <img
+              src="assets/img/bann-cloud-1.svg"
+              alt
+              class="_cloud-first animate__animated animate__zoomInLeft"
+            />
+            <img
+              src="assets/img/bann-cloud-2.svg"
+              alt
+              class="_cloud-second animate__animated animate__zoomInRight"
+            />
+            <img
+              src="assets/img/bann-img.png"
+              alt
+              class="_main animate__animated animate__fadeInUp zoom_animation"
+              style="animation-duration: 20s;"
+            />
+          </div>
+          <div class="bann__bottom">
+            <div class="bann__bottom-left">0xxx…</div>
+            <div class="bann__bottom-links">
+              <!-- <a href="#" target="_blank">bscscan</a> -->
+            </div>
+          </div>
+        </div>
+        <div class="bann__balls">
+          <div class="ballon_animation">
+            <img
+              src="assets/img/bann-balls.svg"
+              alt
+              class="animate__animated animate__bounceIn"
+            />
+          </div>
+        </div>
+      </section>
 
-		<section id="about" class="about">
-			<div class="container">
-				<div class="about__content">
-					<h2 data-animate>$WPEPE heritage</h2>
-					<p data-animate>$WPEPE is building a unique IP on the ETHEREUM ecosystem. It's a community that fosters innovation
-						and collaborative work to push the ETHEREUM ecosystem further.</p>
-				</div>
-				<div class="about__action">
-					<a href="https://x.com" target="_blank" class="btn _x" data-animate="animate__bounceIn"><img
-							src="assets/img/x.svg" alt> Follow us</a>
-					<!-- <button class="btn" disabled data-animate="animate__bounceIn">PRE-SALE</button> -->
-				</div>
-			</div>
-			<div class="about__balls ">
-				<div class="ballon_animation"><img data-src="assets/img/about-balls.svg"
-					src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt
-					data-animate="animate__bounceIn" class="lazy"></div>
-				</div>
-			<div class="about__img" data-animate>
-				<div class="zoom_animation"><img data-src="assets/img/about-img.svg"
-					src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" class="lazy" alt></div>
-				</div>
-		</section>
+      <section id="about" class="about">
+        <div class="container">
+          <div class="about__content">
+            <h2 data-animate>$WPEPE heritage</h2>
+            <p data-animate>
+              $WPEPE is building a unique IP on the ETHEREUM ecosystem. It's a
+              community that fosters innovation and collaborative work to push
+              the ETHEREUM ecosystem further.
+            </p>
+          </div>
+          <div class="about__action">
+            <a
+              href="https://x.com"
+              target="_blank"
+              class="btn _x"
+              data-animate="animate__bounceIn"
+              ><img src="assets/img/x.svg" alt /> Follow us</a
+            >
+            <!-- <button class="btn" disabled data-animate="animate__bounceIn">PRE-SALE</button> -->
+          </div>
+        </div>
+        <div class="about__balls">
+          <div class="ballon_animation">
+            <img
+              data-src="assets/img/about-balls.svg"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+              alt
+              data-animate="animate__bounceIn"
+              class="lazy"
+            />
+          </div>
+        </div>
+        <div class="about__img" data-animate>
+          <div class="zoom_animation">
+            <img
+              data-src="assets/img/about-img.svg"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+              class="lazy"
+              alt
+            />
+          </div>
+        </div>
+      </section>
 
+      <section id="tokenomics" class="tokenomics">
+        <div class="container">
+          <div class="copy-box flex items-center z-10">
+            <div class="copy-box__text">0x000000000000000000dEAD</div>
+            <button class="copy-box__btn">Copy</button>
+          </div>
 
-		<section id="tokenomics" class="tokenomics">
-			<div class="container">
- 
-				
-				<div class="copy-box flex items-center z-10">
-					<div class="copy-box__text">0x000000000000000000dEAD</div>
-					<button class="copy-box__btn">Copy</button>
-				</div>
+          <div class="tokenomics__items">
+            <div class="tokenomics__item item2">
+              <div class="tokenomics__item-main">
+                <div class="tokenomics__item-count">0/0</div>
+                <div class="tokenomics__item-descr">TAX</div>
+              </div>
+            </div>
 
-				<div class="tokenomics__items">
-	
-					<div class="tokenomics__item item2">
-						<div class="tokenomics__item-main">
-							<div class="tokenomics__item-count">0/0</div>
-							<div class="tokenomics__item-descr">TAX</div>
-						</div>
-					</div>
+            <div class="tokenomics__item item1">
+              <div class="tokenomics__item-main">
+                <div class="tokenomics__item-count">LIQUIDITY</div>
+                <div class="tokenomics__item-descr">BURNT</div>
+              </div>
+            </div>
 
-					<div class="tokenomics__item item1">
-						<div class="tokenomics__item-main">
-							<div class="tokenomics__item-count">LIQUIDITY</div>
-							<div class="tokenomics__item-descr">	BURNT</div>
-						</div>
-					</div> 
-					
+            <div class="tokenomics__item item3">
+              <div class="tokenomics__item-main">
+                <div class="tokenomics__item-count">CONTRACT</div>
+                <div class="tokenomics__item-descr">RENOUNCED</div>
+              </div>
+            </div>
 
-					<div class="tokenomics__item item3">
-						<div class="tokenomics__item-main">
-							<div class="tokenomics__item-count">CONTRACT  </div>
-							<div class="tokenomics__item-descr">RENOUNCED</div>
-						</div>
-					</div>
+            <div class="tokenomics__item item4">
+              <div class="tokenomics__item-main">
+                <div class="tokenomics__item-count">SUPPLY</div>
+                <div
+                  class="tokenomics__item-descr max-[1200px]:text-[10px] text-[14px]"
+                >
+                  420,690,000,000,000
+                </div>
+              </div>
+            </div>
+          </div>
 
-					<div class="tokenomics__item item4">
-						<div class="tokenomics__item-main">
-							<div class="tokenomics__item-count">  SUPPLY </div>
-							<div class="tokenomics__item-descr max-[1200px]:text-[10px] text-[14px]">420,690,000,000,000</div>
-						</div>
-					</div>
+          <!-- bg -->
+          <div
+            class="h-full w-full flex justify-center items-center absolute left-0 top-0 lg:top-[20px] z-0 overflow-hidden"
+          >
+            <img
+              src="./assets/img/bg_block.svg"
+              alt=""
+              class="absolute top-0 w-auto h-[110%] md:w-[95%] xl:w-[90%] xl:h-auto z-0 object-cover lg:object-contain rock scale-110"
+            />
+          </div>
+        </div>
+        <div class="tokenomics__img" data-animate>
+          <div class="zoom_animation" style="animation-delay: 2s;">
+            <img
+              data-src="assets/img/tokenomics-img.svg"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+              class="lazy"
+              alt
+            />
+          </div>
+        </div>
+      </section>
 
-					
+      <!-- Main BG  -->
+      <div class="main-bg">
+        <div class="main-bg__ellips">
+          <img src="assets/img/main-ellips.svg" alt />
+        </div>
+        <div class="main-bg__flags">
+          <img src="assets/img/community_flag.svg" alt />
+        </div>
+        <!-- <div class="main-bg__flags"><img src="assets/img/main-flags.svg" alt></div> -->
 
-				</div>
+        <div class="marquee-lines">
+          <div class="marquee-lines__wrap _left">
+            $WPEPE x <span>ETH x</span> $WPEPE x <span>ETH x</span> $WPEPE x
+            <span>ETH x</span>
+          </div>
+          <div class="marquee-lines__wrap _right">
+            $WPEPE x <span>ETH x</span> $WPEPE x <span>ETH x</span> $WPEPE x
+            <span>ETH x</span>
+          </div>
+        </div>
 
-				  <!-- bg -->
-				  <div class="h-full w-full flex justify-center items-center absolute left-0 top-0 lg:top-[20px] z-0 overflow-hidden ">
-					<img src="./assets/img/bg_block.svg" alt="" class="absolute top-0 w-auto h-[110%] md:w-[95%] xl:w-[90%] xl:h-auto z-0 object-cover lg:object-contain rock scale-110">
-				  </div>
-				 
-			</div>
-			<div class="tokenomics__img" data-animate>
-				<div class="zoom_animation" style="animation-delay: 2s;"><img data-src="assets/img/tokenomics-img.svg"
-					src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" class="lazy" alt></div>
-			</div>
-		</section>
+        <section id="how-buy" class="how-buy">
+          <div class="container-fluid">
+            <h2 class="how-buy__head" data-animate>How to buy</h2>
+            <div class="how-buy__wrapper">
+              <img
+                src="assets/img/how-buy.png"
+                alt
+                class="how-buy__img"
+                data-animate="animate__zoomIn"
+              />
+              <div class="how-buy__wrap">
+                <div class="how-buy__item" data-animate="animate__fadeInLeft">
+                  <div class="how-buy__item-number">1</div>
+                  <div class="how-buy__item-content">
+                    <span class="font-bold"> Create a Wallet</span>
+                    download metamask or your wallet of choice from the app
+                    store or google play store for free. Desktop users, download
+                    the google chrome extension by going to metamask.io.
+                  </div>
+                </div>
+                <div class="how-buy__item" data-animate="animate__fadeInRight">
+                  <div class="how-buy__item-number">2</div>
+                  <div class="how-buy__item-content">
+                    <span class="font-bold">Get Some ETH </span>
+                    have ETH in your wallet to switch to $WPEPE. If you don’t
+                    have any ETH, you can buy directly on metamask, transfer
+                    from another wallet, or buy on another exchange and send it
+                    to your wallet.
+                  </div>
+                </div>
+                <div class="how-buy__item" data-animate="animate__fadeInLeft">
+                  <div class="how-buy__item-number">3</div>
+                  <div class="how-buy__item-content">
+                    <span class="font-bold">
+                      Go to Uniswap
+                    </span>
+                    connect to Uniswap. Go to app.uniswap.org in google chrome
+                    or on the browser inside your Metamask app. Connect your
+                    wallet. Paste the $WPEPE token address into Uniswap, select
+                    Pepe, and confirm. When Metamask prompts you for a wallet
+                    signature, sign.
+                  </div>
+                </div>
+                <div class="how-buy__item" data-animate="animate__fadeInRight">
+                  <div class="how-buy__item-number">4</div>
+                  <div class="how-buy__item-content">
+                    <span class="font-bold">
+                      Switch ETH for $WPEPE
+                    </span>
+                    switch ETH for $WPEPE. We have ZERO taxes so you don’t need
+                    to worry about buying with a specific slippage, although you
+                    may need to use slippage during times of market volatility.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
 
-		<!-- Main BG  -->
-		<div class="main-bg">
-			<div class="main-bg__ellips"><img src="assets/img/main-ellips.svg" alt></div>
-			<div class="main-bg__flags"><img src="assets/img/community_flag.svg" alt></div>
-			<!-- <div class="main-bg__flags"><img src="assets/img/main-flags.svg" alt></div> -->
+        <section id="community" class="community">
+          <img
+            src="assets/img/bann-cloud-1.svg"
+            alt
+            class="community__cloud-first float_animation"
+          />
+          <img
+            src="assets/img/bann-cloud-2.svg"
+            alt
+            class="community__cloud-second float_animation"
+            style="animation-delay: -5s;"
+          />
 
-			<div class="marquee-lines">
-				<div class="marquee-lines__wrap _left">$WPEPE x <span>ETH x</span> $WPEPE x <span>ETH x</span> $WPEPE x
-					<span>ETH
-						x</span>
-				</div>
-				<div class="marquee-lines__wrap _right">$WPEPE x <span>ETH x</span> $WPEPE x <span>ETH x</span> $WPEPE x
-					<span>ETH
-						x</span>
-				</div>
-			</div>
+          <div class="container-fluid">
+            <div class="community__title">
+              <h3 data-animate>The $WPEPE family</h3>
+              <h2 class="community__head" data-animate>Community</h2>
+            </div>
+            <div class="community-box" data-animate="animate__bounceIn">
+              <div class="community-box__links">
+                <a
+                  href="https://x.com"
+                  target="_blank"
+                  class="community-box__link _x"
+                  ><span class="img-box"
+                    ><img src="assets/img/x.svg" alt
+                  /></span>
+                  Follow us</a
+                >
+                <span class="community-box__link disabled">
+                  <span class="img-box"
+                    ><img src="assets/img/token.svg" alt
+                  /></span>
+                  $WPEPE
+                </span>
+              </div>
+              <img
+                data-src="assets/img/community.svg"
+                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+                alt
+                class="community-box__img lazy zoom_animation"
+              />
+            </div>
+          </div>
+        </section>
 
-			<section id="how-buy" class="how-buy">
-				<div class="container-fluid">
-					<h2 class="how-buy__head" data-animate>How to buy</h2>
-					<div class="how-buy__wrapper">
-						<img src="assets/img/how-buy.png" alt class="how-buy__img" data-animate="animate__zoomIn">
-						<div class="how-buy__wrap">
+        <footer class="footer">
+          <div class="container-fluid">
+            <div class="footer__grid">
+              <div class="footer__col _left">
+                <svg
+                  class="footer__bars"
+                  width="37"
+                  height="10"
+                  viewBox="0 0 37 4"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M37 2C37 0.89543 36.1046 0 35 0C33.8954 0 33 0.89543 33 2C33 3.10457 33.8954 4 35 4C36.1046 4 37 3.10457 37 2Z"
+                    fill="white"
+                  />
+                  <path
+                    d="M29 0H23C21.8954 0 21 0.89543 21 2C21 3.10457 21.8954 4 23 4H29C30.1046 4 31 3.10457 31 2C31 0.89543 30.1046 0 29 0Z"
+                    fill="white"
+                  />
+                  <path
+                    d="M19 2C19 0.89543 18.1046 0 17 0C15.8954 0 15 0.89543 15 2C15 3.10457 15.8954 4 17 4C18.1046 4 19 3.10457 19 2Z"
+                    fill="white"
+                  />
+                  <path
+                    d="M11 0H2C0.89543 0 0 0.89543 0 2C0 3.10457 0.89543 4 2 4H11C12.1046 4 13 3.10457 13 2C13 0.89543 12.1046 0 11 0Z"
+                    fill="white"
+                  />
+                </svg>
 
-							<div class="how-buy__item" data-animate="animate__fadeInLeft">
-								<div class="how-buy__item-number">1</div>
-								<div class="how-buy__item-content">
-									<span class="font-bold"> Create a Wallet</span> 
-									download metamask or your wallet of choice from the app store or google play store for free. Desktop users, download the google chrome extension by going to metamask.io.
-								</div>
-							</div>
-							<div class="how-buy__item" data-animate="animate__fadeInRight">
-								<div class="how-buy__item-number">2</div>
-								<div class="how-buy__item-content">
-									<span class="font-bold">Get Some ETH
-									</span> 
-									have ETH in your wallet to switch to $WPEPE. If you don’t have any ETH, you can buy directly on metamask, transfer from another wallet, or buy on another exchange and send it to your wallet.
-								</div>
-							</div>
-							<div class="how-buy__item" data-animate="animate__fadeInLeft">
-								<div class="how-buy__item-number">3</div>
-								<div class="how-buy__item-content">
-									<span class="font-bold">
-										Go to Uniswap
-									</span> 
-									connect to Uniswap. Go to app.uniswap.org in google chrome or on the browser inside your Metamask app. Connect your wallet. Paste the $WPEPE token address into Uniswap, select Pepe, and confirm. When Metamask prompts you for a wallet signature, sign.
-								</div>
-							</div>
-							<div class="how-buy__item" data-animate="animate__fadeInRight">
-								<div class="how-buy__item-number">4</div>
-								<div class="how-buy__item-content">
-									<span class="font-bold">
-										Switch ETH for $WPEPE
-									</span> 
-									switch ETH for $WPEPE. We have ZERO taxes so you don’t need to worry about buying with a specific slippage, although you may need to use slippage during times of market volatility.
-								</div>
-							</div>
-							
-						</div>
-					</div>
-				</div>
-			</section>
+                <ul class="footer__menu js-menu footer_text">
+                  <!-- <li><a href="#page">Home</a></li> -->
+                  <li><a href="#about">About us</a></li>
+                  <li><a href="#tokenomics">$WPEPENOMICS</a></li>
+                  <li><a href="#how-buy">How to buy</a></li>
+                  <!-- <li><a href="#community">Community</a></li> -->
+                </ul>
+              </div>
 
-			<section id="community" class="community">
-				<img src="assets/img/bann-cloud-1.svg" alt class="community__cloud-first float_animation">
-				<img src="assets/img/bann-cloud-2.svg" alt class="community__cloud-second float_animation" style="animation-delay: -5s;">
-				
-				<div class="container-fluid">
+              <div class="footer__copy footer_text">&copy; 2024, $WPEPE</div>
 
-					<div class="community__title">
-						<h3 data-animate>The $WPEPE family</h3>
-						<h2 class="community__head" data-animate>Community</h2>
-					</div>
-					<div class="community-box" data-animate="animate__bounceIn">
-						<div class="community-box__links">
-							<a href="https://x.com" target="_blank" class="community-box__link _x"><span
-									class="img-box"><img src="assets/img/x.svg" alt></span> Follow us</a>
-							<span class="community-box__link disabled">
-								<span class="img-box"><img src="assets/img/token.svg" alt></span> $WPEPE
-							</span>
-						</div>
-						<img data-src="assets/img/community.svg"
-							src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt
-							class="community-box__img lazy zoom_animation">
-					</div>
+              <div class="footer__col _right footer_text">
+                <a
+                  href="https://ethereum.org/en/"
+                  target="_blank"
+                  class="footer__link"
+                  >ERCSCAN</a
+                >
+                <a href="https://x.com" target="_blank" class="footer__link"
+                  >twitter</a
+                >
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+      <!-- Main BG END -->
+    </div>
+    <!-- Page END -->
 
-				</div>
+    <!-- JS -->
+    <script src="assets/libs/jquery-2.2.4.min.js"></script>
+    <script src="assets/libs/jquery.malihu.PageScroll2id.min.js"></script>
+    <script src="assets/libs/jquery.lazy.min.js"></script>
+    <script src="assets/js/common.js"></script>
 
-			</section>
-	
-			<footer class="footer">
-				<div class="container-fluid">
-					<div class="footer__grid">
-
-						<div class="footer__col _left">
-
-							<svg class="footer__bars" width="37" height="10" viewBox="0 0 37 4" fill="none"
-								xmlns="http://www.w3.org/2000/svg">
-								<path
-									d="M37 2C37 0.89543 36.1046 0 35 0C33.8954 0 33 0.89543 33 2C33 3.10457 33.8954 4 35 4C36.1046 4 37 3.10457 37 2Z"
-									fill="white" />
-								<path
-									d="M29 0H23C21.8954 0 21 0.89543 21 2C21 3.10457 21.8954 4 23 4H29C30.1046 4 31 3.10457 31 2C31 0.89543 30.1046 0 29 0Z"
-									fill="white" />
-								<path
-									d="M19 2C19 0.89543 18.1046 0 17 0C15.8954 0 15 0.89543 15 2C15 3.10457 15.8954 4 17 4C18.1046 4 19 3.10457 19 2Z"
-									fill="white" />
-								<path
-									d="M11 0H2C0.89543 0 0 0.89543 0 2C0 3.10457 0.89543 4 2 4H11C12.1046 4 13 3.10457 13 2C13 0.89543 12.1046 0 11 0Z"
-									fill="white" />
-							</svg>
-
-							<ul class="footer__menu js-menu footer_text">
-								<!-- <li><a href="#page">Home</a></li> -->
-								<li><a href="#about">About us</a></li>
-								<li><a href="#tokenomics">$WPEPENOMICS</a></li>
-								<li><a href="#how-buy">How to buy</a></li>
-								<!-- <li><a href="#community">Community</a></li> -->
-							</ul>
-
-						</div>
-
-						<div class="footer__copy footer_text">&copy; 2024, $WPEPE</div>
-
-
-						<div class="footer__col _right footer_text">
-
-							<a href="https://ethereum.org/en/" target="_blank"  class="footer__link">ERCSCAN</a>
-							<a href="https://x.com" target="_blank" class="footer__link">twitter</a>
-
-						</div>
-
-
-					</div>
-				</div>
-			</footer>
-
-		</div>
-		<!-- Main BG END -->
-
-		
-
-	</div>
-	<!-- Page END -->
-
-<!-- JS -->
-<script src="assets/libs/jquery-2.2.4.min.js"></script>
-<script src="assets/libs/jquery.malihu.PageScroll2id.min.js"></script>
-<script src="assets/libs/jquery.lazy.min.js"></script>
-<script src="assets/js/common.js"></script>
-  
-   <!-- aos js scroll animation -->
-   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<!-- JS End -->
- <script>
-	//  scroll animation Effect
-	AOS.init({
-		once: true
-	});
- </script>
-
-
-</body> 
+    <!-- aos js scroll animation -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- JS End -->
+    <script>
+      //  scroll animation Effect
+      AOS.init({
+        once: true,
+      });
+    </script>
+  </body>
 </html>
