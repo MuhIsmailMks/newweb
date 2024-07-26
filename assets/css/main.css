@@ -442,7 +442,7 @@ img {
 
 .bann {
   position: relative;
-  margin-bottom: 120px;
+  margin-bottom: 70px;
   text-align: center;
 }
 .bann:before {
@@ -577,7 +577,7 @@ img {
 
 .about {
   position: relative;
-  margin-top: 150px;
+  margin-top: 50px;
   text-align: center;
 }
 .about__balls {
