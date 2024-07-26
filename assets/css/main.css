@@ -515,6 +515,7 @@ img {
   -webkit-animation-delay: 0.4s;
           animation-delay: 0.4s;
   margin:0 auto;
+  width:800px;
 }
 .bann__img ._cloud-first {
   position: absolute;
