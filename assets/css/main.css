@@ -866,7 +866,7 @@ img {
 
 .community {
   position: relative;
-  margin: 140px 0 60px;
+  margin: 140px 0 0px;
 }
 .community__cloud-first {
   position: absolute;
@@ -1073,7 +1073,7 @@ img {
 }
 
 .footer {
-  margin-top: 85px;
+  margin-top: 10px;
   padding: 10px 0;
   border-top: 1px solid rgba(255, 255, 255, 0.3);
   text-transform: uppercase;
