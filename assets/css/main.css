@@ -490,8 +490,8 @@ img {
 }
 .bann__head {
   position: relative; 
-  font: 400 160px/1.5 "genty", sans-serif ;   
-  margin-bottom:2rem;
+  font: 400 160px/1.1 "genty", sans-serif ;   
+  margin-bottom:5rem;
   -webkit-animation-delay: 0.1s;
           animation-delay: 0.1s; 
 }
