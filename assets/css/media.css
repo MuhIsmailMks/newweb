@@ -6,7 +6,7 @@
   .btn {
     padding: 0.9em 1.2em;
     min-width: 10em;
-    font-size: 20px;
+    font-size: 40px;
   }
   .btn._head {
     padding: 0.85em 1em;
@@ -32,7 +32,7 @@
     font-size: 20px;
   }
   .bann__head {
-    font-size: 25vw;
+    font-size: 18vw;
   }
   .bann__img {
     margin: -6vw auto 0;
@@ -61,7 +61,7 @@
     margin-right: -680px;
   }
   .community__head {
-    font-size: 180px;
+    font-size: 130px;
   }
   .partners__item {
     width: 210px;
@@ -226,7 +226,7 @@
     display: none;
   }
   .community__head {
-    font-size: 16vw;
+    font-size: 12vw;
   }
   .community-box {
     max-width: none;
@@ -340,7 +340,7 @@
     margin-bottom: 1rem;
   }
   .bann__head {
-    font-size: 32vw;
+    font-size: 22vw;
   }
   .bann__bottom {
     margin-top: -40px;
@@ -484,7 +484,7 @@
     margin-top: 80px;
   }
   .community__head {
-    font-size: 20vw;
+    font-size: 13vw;
   }
   .footer__menu {
     gap: 10px 15px;

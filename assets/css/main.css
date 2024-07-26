@@ -6,6 +6,11 @@
   font-display: swap;
 }
 @font-face {
+  font-family: "genty";
+  src: url("../fonts/GentyDemo-Regular.otf");
+  font-display: swap;
+}
+@font-face {
   font-family: "FKScreamerLegacy-Upright";
   font-weight: 400;
   font-style: normal;
@@ -112,6 +117,10 @@ img {
   width: auto;
   height: auto;
   max-width: 100%;
+}
+
+.genty_font {
+  font-family: "genty", sans-serif ;     
 }
 
 #page {
@@ -480,10 +489,11 @@ img {
           animation-delay: 0.2s;
 }
 .bann__head {
-  position: relative;
-  font: 400 400px/0.88 "FKScreamerLegacy-Upright", sans-serif;
+  position: relative; 
+  font: 400 400px/1.2 "genty", sans-serif ;   
   -webkit-animation-delay: 0.1s;
           animation-delay: 0.1s;
+    
 }
 .bann__head:before {
   content: "";
@@ -868,7 +878,8 @@ img {
   text-align: center;
 }
 .community__head {
-  font-size: 244px;
+  font-size: 184px;
+  margin-top:1rem;
 }
 
 .community-box {
