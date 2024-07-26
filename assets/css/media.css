@@ -32,9 +32,10 @@
   }
   .bann__subhead {
     font-size: 20px;
-  }
-  .bann__head {
-    font-size: 11vw;
+  } 
+  .bann__head { 
+    font: 400 7vw/1.5 "genty", sans-serif ;   
+    margin-bottom:2rem; 
   }
   .bann__img {
     margin: -6vw auto 0;
@@ -355,8 +356,9 @@
   .bann__subhead {
     margin-bottom: 1rem;
   }
-  .bann__head {
-    font-size: 22vw;
+  .bann__head { 
+    font: 400 22vw/1.5 "genty", sans-serif ;  
+    margin-bottom:0rem;
   }
   .bann__bottom {
     margin-top: -40px;
