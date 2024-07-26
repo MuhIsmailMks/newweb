@@ -1206,6 +1206,7 @@ a.team-item__img {
 }
 .how-buy__head {
   text-align: center;
+  text-transform: capitalize;
 }
 .how-buy__wrapper {
   position: relative;
