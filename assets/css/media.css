@@ -34,7 +34,7 @@
     font-size: 20px;
   }
   .bann__head {
-    font-size: 13vw;
+    font-size: 11vw;
   }
   .bann__img {
     margin: -6vw auto 0;
@@ -51,7 +51,7 @@
     max-width: 20vw;
   }
   .bann__img ._main { 
-    width:600px;
+    width:520px;
   }
   .about__action {
     gap: 15px;
