@@ -455,9 +455,14 @@
     width: auto;
     object-fit: contain;
     max-width: 1000% !important;
-
-  
   }
+
+  .tokenomics__img  .mobile_size {
+    height: 40vw;
+   width: auto;
+   object-fit: contain;
+   max-width: 1000% !important;
+}
 
 }
 @media (max-width: 575px) {
