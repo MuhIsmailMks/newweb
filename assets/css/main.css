@@ -490,7 +490,7 @@ img {
 }
 .bann__head {
   position: relative; 
-  font: 400 400px/1.2 "genty", sans-serif ;   
+  font: 400 300px/1.2 "genty", sans-serif ;   
   -webkit-animation-delay: 0.1s;
           animation-delay: 0.1s;
     
@@ -532,6 +532,8 @@ img {
   margin-right: -835px;
   -webkit-animation-delay: 0.7s;
           animation-delay: 0.7s;
+
+  max-width: 200px;
 }
 .bann__bottom {
   display: -webkit-box;
@@ -872,6 +874,7 @@ img {
   top: 105px;
   right: 50%;
   margin-right: -805px;
+  max-width: 200px;
 }
 .community__title {
   margin-bottom: 10px;

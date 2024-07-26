@@ -1,4 +1,17 @@
 /*==========  Desktop First Method  ==========*/
+@media (min-width: 1599px) {
+  .bann__img ._cloud-second {
+    position: absolute;
+    top: 20%;
+    right: 55%;
+    margin-right: -835px;
+    -webkit-animation-delay: 0.7s;
+            animation-delay: 0.7s;
+  
+    max-width: 200px;
+  }
+}
+
 @media (max-width: 1599px) {
   .container {
     width: 1200px;
@@ -425,6 +438,11 @@
   }
   .how-buy__item {
     min-width: 100%;
+  }
+
+  .lottie{
+    height: 100px;
+    width: 100px;
   }
 }
 @media (max-width: 575px) {

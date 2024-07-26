@@ -33,6 +33,21 @@
   </head>
 
   <body>
+
+    <style>
+      .lottie{
+        height: 300px;
+        width: 300px;
+      }
+
+      .lottie2{ 
+        right: 0%;
+        top: 10%;
+        transform: scaleX(-1);
+      }
+
+    </style>
+
     <!-- Page -->
     <div id="page">
       <header class="header">
@@ -115,14 +130,14 @@
           </div>
           <div class="bann__img">
             <img
-              src="assets/img/bann-cloud-1.svg"
+              src="assets/img/bann-cloud-1.png"
               alt
               class="_cloud-first animate__animated animate__zoomInLeft"
             />
             <img
-              src="assets/img/bann-cloud-2.svg"
+              src="assets/img/bann-cloud-2.png"
               alt
-              class="_cloud-second animate__animated animate__zoomInRight"
+              class="_cloud-second animate__animated animate__zoomInRight  "
             />
             <div class="relative" data-aos="zoom-in"
 			data-aos-duration="500"
@@ -142,15 +157,9 @@
             </div>
           </div>
         </div>
-        <!-- <div class="bann__balls">
-          <div class="zoom_animation">
-            <img
-              src="assets/img/bg_decor.svg"
-              alt
-              class="animate__animated animate__bounceIn"
-            />
-          </div>
-        </div> -->
+
+     
+
       </section>
 
       <section id="about" class="about">
@@ -350,12 +359,12 @@
 
         <section id="community" class="community">
           <img
-            src="assets/img/bann-cloud-1.svg"
+            src="assets/img/bann-cloud-1.png"
             alt
             class="community__cloud-first float_animation"
           />
           <img
-            src="assets/img/bann-cloud-2.svg"
+            src="assets/img/bann-cloud-2.png"
             alt
             class="community__cloud-second float_animation"
             style="animation-delay: -5s;"
@@ -454,6 +463,8 @@
     </div>
     <!-- Page END -->
 
+    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+    
     <!-- JS -->
     <script src="assets/libs/jquery-2.2.4.min.js"></script>
     <script src="assets/libs/jquery.malihu.PageScroll2id.min.js"></script>
