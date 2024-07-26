@@ -650,13 +650,29 @@ img {
   background: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0));
 }
 
-.tokenomics {
+.tokenomics { 
   padding: 90px 0 0;
-  background: #DECC8A;
+  background: #5FA4CA;
+  /* background: #DECC8A; */
   text-align: center;
   color: #fff;
   position:relative;
+  overflow:hidden;
 }
+.tokenomics:before {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  top: 50%;
+  left: 50%;
+  width: 600px;
+  height: 600px;
+  -webkit-transform: translate(-50%, -48%);
+      -ms-transform: translate(-50%, -48%);
+          transform: translate(-50%, -48%);
+  background: radial-gradient(50% 50% at 50% 50%, #9FCEE8 0%, #5FA4CA 100%);
+}
+
 .tokenomics__title {
   margin-bottom: 50px;
 }
