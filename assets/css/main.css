@@ -520,10 +520,13 @@ img {
   position: absolute;
   top: 22%;
   left: 50%;
-  max-width: 192px;
+  max-width: 252px;
   margin-left: -740px;
   -webkit-animation-delay: 0.7s;
           animation-delay: 0.7s;
+
+          width: 260px;
+          max-width: 260px;
 }
 .bann__img ._cloud-second {
   position: absolute;
@@ -533,7 +536,8 @@ img {
   -webkit-animation-delay: 0.7s;
           animation-delay: 0.7s;
 
-  max-width: 200px;
+  width: 300px;
+  max-width: 300px;
 }
 .bann__bottom {
   display: -webkit-box;
@@ -866,7 +870,7 @@ img {
   position: absolute;
   top: 145px;
   left: 50%;
-  max-width: 192px;
+  max-width: 172px;
   margin-left: -795px;
 }
 .community__cloud-second {

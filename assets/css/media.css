@@ -1,16 +1,5 @@
 /*==========  Desktop First Method  ==========*/
-@media (min-width: 1599px) {
-  .bann__img ._cloud-second {
-    position: absolute;
-    top: 20%;
-    right: 55%;
-    margin-right: -835px;
-    -webkit-animation-delay: 0.7s;
-            animation-delay: 0.7s;
-  
-    max-width: 200px;
-  }
-}
+ 
 
 @media (max-width: 1599px) {
   .container {
@@ -52,14 +41,14 @@
     width: 70vw;
   }
   .bann__img ._cloud-first {
-    left: -16%;
+    left: -19%;
     margin: 0;
-    max-width: 12vw;
+    max-width: 20vw;
   }
   .bann__img ._cloud-second {
-    right: -16%;
+    right: -19%;
     margin: 0;
-    max-width: 14vw;
+    max-width: 20vw;
   }
   .about__action {
     gap: 15px;
