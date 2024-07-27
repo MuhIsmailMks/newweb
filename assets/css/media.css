@@ -584,6 +584,10 @@
     height: 140px;
     width: 140px;  
    }
+
+   .copy-box { 
+    max-width: 80%;
+  }
 }
 /*==========  Mobile First Method  ==========*/
 @media (min-width: 1200px) {
