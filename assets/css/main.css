@@ -11,6 +11,11 @@
   font-display: swap;
 }
 @font-face {
+  font-family: "linotype";
+  src: url("../fonts/Linotype_Bold.ttf");
+  font-display: swap;
+}
+@font-face {
   font-family: "FKScreamerLegacy-Upright";
   font-weight: 400;
   font-style: normal;
@@ -121,6 +126,10 @@ img {
 
 .genty_font {
   font-family: "genty", sans-serif ;     
+}
+
+.linotype_font {
+  font-family: "linotype", sans-serif ;     
 }
 
 .relative_element{
@@ -352,6 +361,7 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -372,6 +382,11 @@ img {
   text-transform: uppercase;
   font: 400 19px/1.2 "Inter-Black", sans-serif;
 }
+.header__menu{
+  position: absolute; 
+  left: 50%;
+  transform: translateX(-50%);
+ }
 .header__menu a {
   border-bottom: 2px solid transparent;
   text-decoration: none;

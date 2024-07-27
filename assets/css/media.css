@@ -168,6 +168,10 @@
     font-size: 12px;
     color: #fff;
   }
+  .header__menu{   
+    left: auto;
+    transform: translateX(0%);
+   }
   .header__menu li {
     border-bottom: 1px solid #000;
   }
@@ -589,6 +593,7 @@
             justify-content: center;
     gap: 10px 24px;
   }
+  
   .header__sandwich {
     display: none;
   }
