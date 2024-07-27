@@ -271,6 +271,11 @@
     padding: 0 10px;
   }
 
+  .word{ 
+    right: -20% !important; 
+    height: 200px;
+    width: 200px;  
+   }
   
 }
 @media (max-width: 991px) {
@@ -573,9 +578,12 @@
     max-width: none;
     font-size: 14px;
   }
-  /* .footer_text{
-    font-size:.8rem;
-  } */
+
+  .word{ 
+    right: -20% !important; 
+    height: 140px;
+    width: 140px;  
+   }
 }
 /*==========  Mobile First Method  ==========*/
 @media (min-width: 1200px) {

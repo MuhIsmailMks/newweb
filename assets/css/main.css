@@ -1331,6 +1331,47 @@ a.team-item__img {
   padding: 225px 0 0;
 }
 
+.word{
+  position: absolute;
+  right: -40% !important;
+  top: 0;
+
+  height: 300px;
+  width: 300px; 
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  opacity: 0;
+  transform: scale(0);
+  transition: .3s ease-in-out;
+ }
+
+ .word img{
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+ }
+
+ .hover_img{
+  display: flex;
+  justify-content: center;
+ }
+
+ .hover_image_container{
+  max-width: 1000px;
+
+ }
+
+
+ .hover_img img._main:hover + .word { 
+  opacity: 1; 
+  transform: scale(1);
+}
+
+
+
 
 /* animation */
 .ballon_animation{
@@ -1443,3 +1484,4 @@ a.team-item__img {
       transform: scale(1);
   }
 }
+ 
