@@ -1465,6 +1465,10 @@ a.team-item__img {
   display: none;
 }
 
+.how-buy__img {
+  width:800px; 
+}
+
 /* token */
 .token_ca{ 
   justify-content: center;
