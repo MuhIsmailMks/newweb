@@ -234,7 +234,15 @@
   }
   .community__cloud-first,
   .community__cloud-second {
-    display: none;
+    /* display: none; */
+    width:100px; 
+  }
+  .community__cloud-first {
+    margin-left: -50vw;
+    top:100px
+  }
+  .community__cloud-second {
+    margin-right: -50vw; 
   }
   .community__head {
     font-size: 12vw;
@@ -587,6 +595,19 @@
 
    .copy-box { 
     max-width: 80%;
+  }
+
+  .community__cloud-first,
+  .community__cloud-second { 
+    width:50px; 
+  }
+  .community__cloud-first {
+    margin-left: -48vw;
+    top:60px
+  }
+  .community__cloud-second {
+    margin-right: -48vw; 
+    top:60px
   }
 }
 /*==========  Mobile First Method  ==========*/
