@@ -35,7 +35,14 @@
   <body>
 
     <style>
-     
+     .token_ca{ 
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+
+      margin-bottom: 2rem;
+     }
+ 
 
    
     </style>
@@ -8728,7 +8735,7 @@
 
            
             <div
-              class="media_social z-10 flex justify-center items-center w-auto relative gap-[1.5rem]" data-aos="fade-left"
+              class="media_social z-10 flex justify-center items-center w-auto relative gap-[1rem] lg:gap-[1.5rem]" data-aos="fade-left"
 			  data-aos-duration="500"
 			  data-aos-delay="400"
             >
@@ -8755,6 +8762,19 @@
                     src="./assets/img/twitter_logo.svg"
                     alt=""
                     class="h-auto object-contain w-[50%]"
+                  />
+                </a>
+              </div>
+              <div class="social_container hover:scale-110 duration-300">
+                <a
+                  target="_blank"
+                  href="https://www.dextools.io/"
+                  class="social hover:scale-110 duration-300 w-[40px] h-[40px] lg:w-[59.77px] lg:h-[59.77px] bg-[#379225] rounded-full border-[#060205] border-[.75px] flex justify-center items-center"
+                >
+                  <img
+                    src="./assets/img/dexIcon.png"
+                    alt=""
+                    class="h-auto object-contain w-[60%]"
                   />
                 </a>
               </div>
@@ -8865,9 +8885,15 @@
 
       <section id="tokenomics " class="tokenomics">
         <div class="container">
-          <div class="copy-box flex items-center z-10">
-            <div class="copy-box__text">0x000000000000000000dEAD</div>
-            <button class="copy-box__btn">Copy</button>
+        
+          <div class="token_ca relative flex justify-center items-center ">
+            <div class="copy-box flex items-center z-10">
+              <div class="copy-box__text">0x000000000000000000dEAD</div>
+              <button class="copy-box__btn">Copy</button>
+            </div>
+            <a href="https://www.dextools.io/app" target="_blank" class="hover:scale-110 duration-300 social_ca z-10">
+              <img src="./assets/img/dex2.png" alt="" class="w-[37px] md:w-[50px] h-auto duration-200">
+            </a>
           </div>
 
           <div class="tokenomics__items">
