@@ -16,6 +16,16 @@
   font-display: swap;
 }
 @font-face {
+  font-family: "betula";
+  src: url("../fonts/Betula.otf");
+  font-display: swap;
+}
+@font-face {
+  font-family: "happyDeamer";
+  src: url("../fonts/Happy_Dreamer.otf");
+  font-display: swap;
+}
+@font-face {
   font-family: "FKScreamerLegacy-Upright";
   font-weight: 400;
   font-style: normal;
@@ -130,6 +140,14 @@ img {
 
 .linotype_font {
   font-family: "linotype", sans-serif ;     
+}
+
+.betula_font {
+  font-family: "betula", sans-serif ;     
+}
+
+.happyDeamer_font {
+  font-family: "happyDeamer", sans-serif ;     
 }
 
 .relative_element{
@@ -1307,7 +1325,7 @@ a.team-item__img {
   text-align:center;
   border-radius: 6px;
   background: #fff;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   text-align: center;
   color: #202020;
 }
