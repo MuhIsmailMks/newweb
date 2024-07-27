@@ -322,6 +322,11 @@
         align-self: stretch;
     min-height: auto;
   }
+
+  
+.none_mobile{
+  display: none !important;
+}
 }
 @media (max-width: 767px) {
   .container {
