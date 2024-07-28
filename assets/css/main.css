@@ -658,8 +658,9 @@ img {
 .about__img {
   overflow: hidden;
   position: relative;
-  margin-top: 35px;
+  /* margin-top: 35px; */
   padding: 0 5px;
+  padding-top:35px;
 }
 .about__img img {
   margin: 0 auto;
