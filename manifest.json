@@ -1,0 +1,22 @@
+{
+  "theme_color": "#C4E0F0",
+  "background_color": "#C4E0F0",
+  "display": "fullscreen",
+  "scope": "/",
+  "start_url": "/",
+  "name": "$PACO",
+  "short_name": "$PACO",
+  "description": "Paco is just a cool penguin having a good time on Solana.",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png?v2",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png?v2",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
