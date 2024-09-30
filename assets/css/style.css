@@ -34,6 +34,10 @@
     --gradient3:linear-gradient(96.52deg, #7DE0FF -14.96%, #FF8383 56.76%, #85FF4C 119.1%);
 }
 
+.gentyFont{
+    font-family: var(--font-gentyDemo);
+}
+
 body{
     background-repeat: no-repeat;
     background-origin: border-box;
@@ -62,6 +66,10 @@ section{
     -ms-transform:scaleX(-1);
     -o-transform:scaleX(-1);
     -webkit-transform:scaleX(-1);
+}
+
+.heroTitle{
+    text-shadow: 0 5px 5px #599D16;
 }
 
 /* marquee */
