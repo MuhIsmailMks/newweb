@@ -1,0 +1,9 @@
+@media screen and (max-width:1024px) {
+    .banner{
+        width: 90%; 
+    }
+
+    .bannerTitle{
+        padding: 0.5rem 1rem;
+    }
+}
