@@ -1,359 +1,492 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
-    <!-- AOS scroll effect cdn --> 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=VT323&display=swap"
+      rel="stylesheet"
+    />
+    <!-- AOS scroll effect cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    />
     <!-- tailwind css cdn -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- css link -->
-    <link rel="stylesheet" href="./static/css/style.css">
-    <link rel="stylesheet" href="./static/css/responsive.css">
+    <link rel="stylesheet" href="./static/css/style.css" />
+    <link rel="stylesheet" href="./static/css/responsive.css" />
     <title>new web</title>
-</head>
-<body>
+  </head>
+  <body>
+    <div
+      class="w-full min-h-[100vh] h-auto max-w-[100%] relative overflow-hidden flex flex-col items-center pt-[50px] gap-6"
+    >
+      <div class="bg fixed top-0 left-0 h-full w-full z-0">
+        <img src="./static/images/bgImage.webp" alt="" class="w-full h-full" />
+      </div>
 
-    <div class="w-full min-h-[100vh] h-auto   max-w-[100%] relative overflow-hidden flex flex-col items-center pt-[50px]  gap-6">
+      <!-- image head -->
+      <div
+        class="flex relative justify-center items-center border-2 border-black"
+      >
+        <img
+          src="./static/images/asdd.jpg"
+          alt="head"
+          class="w-[30%] lg:w-[200px] h-auto"
+        />
+        <img
+          src="./static/images/asdd.jpg"
+          alt="head"
+          class="w-[30%] lg:w-[200px] h-auto"
+        />
+        <img
+          src="./static/images/asdd.jpg"
+          alt="head"
+          class="w-[30%] lg:w-[200px] h-auto"
+        />
+      </div>
 
-        <div class="bg fixed top-0 left-0 h-full w-full z-0">
-            <img src="./static/images/bgImage.webp" alt="" class="w-full h-full">
+      <!-- welcome  -->
+      <div class="banner gap-2">
+        <div class="bannerTitle">
+          <h2 class="xl:text-[1.1vw]">Welcome to — ゆっくりしていってね!</h2>
+
+          <img src="./static/images/diamond.gif" alt="diamond" />
         </div>
 
-        <!-- image head -->
-         <div class="flex relative justify-center items-center border-2 border-black">
-            <img src="./static/images/asdd.jpg" alt="head" class="w-[30%] lg:w-[200px] h-auto">
-            <img src="./static/images/asdd.jpg" alt="head" class="w-[30%] lg:w-[200px] h-auto">
-            <img src="./static/images/asdd.jpg" alt="head" class="w-[30%] lg:w-[200px] h-auto">
-         </div>
-        
-        <!-- welcome  -->
-        <div class="banner gap-2">
+        <p class="bannerText w-[90%]">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ducimus
+          tempora ullam veniam consequuntur minus provident debitis dolorum?
+          Aspernatur quam repelle.
+        </p>
+      </div>
 
-            <div class="bannerTitle">
-                <h2 class="xl:text-[1.1vw]">Welcome to  — ゆっくりしていってね!</h2>
+      <div class="audio flex items-center justify-center">
+        <audio id="audioPlayer" controls>
+          <source src="./static/ost.ogg" type="audio/mpeg" />
+          Your browser does not support the audio element.
+        </audio>
+      </div>
 
-                <img src="./static/images/diamond.gif" alt="diamond">
-            </div> 
+      <div class="lines w-[55%] h-[1px] bg-white relative opacity-60"></div>
 
-            <p class="bannerText w-[90%]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ducimus tempora ullam veniam consequuntur minus provident debitis dolorum? Aspernatur quam repelle.</p>
+      <!-- colletion -->
+      <div class="banner">
+        <div class="bannerTitle">
+          <h2 class="xl:text-[1.1vw]">New Web Collection</h2>
 
+          <img src="./static/images/diamond.gif" alt="diamond" />
         </div>
 
-        
-        <div class="audio flex items-center justify-center">
-            <audio id="audioPlayer" controls>
-                <source src="./static/ost.ogg" type="audio/mpeg">
-                Your browser does not support the audio element.
-              </audio> 
+        <div class="imagesBanner max-lg:flex-col flex-row gap-2  w-[90%] justify-center">
+
+          <div class="w-full lg:w-[55%]">
+            <img
+              src="./static/images/minecraft.gif"
+              alt=""
+              class="w-full h-auto"
+            />
+          </div>
+          <div
+            class="w-full lg:w-[35%] flex flex-col items-center justify-center gap-4"
+          > 
+            <div class="w-full">
+             
+                
+                <div class="window text-black">
+                    <div class="title-bar">
+                      <div class="title-bar-text">New Web</div>
+                    </div>
+                    <div class="window-body">
+                      <p class="text-md">How retard you are?</p>
+                      <div class="field-row">
+                        <label for="range26">Low</label
+                        ><input
+                          id="range26"
+                          max="11"
+                          min="1"
+                          type="range"
+                          value="10"
+                        /><label for="range27">High</label>
+                      </div>
+                    </div>
+                    <div class="status-bar">
+                      <p class="status-bar-field">Press F1 for help</p>
+                      <p class="status-bar-field">Slide 1</p>
+                      <p class="status-bar-field">CPU Usage: 14%</p>
+                    </div>
+                  </div>
+
+            </div>
+            <img src="./static/images/asdd.png" alt="" />
+          </div>
         </div>
 
-        <div class="lines w-[55%] h-[1px] bg-white relative opacity-60"></div>
+        <div class="bannerLinkContainer">
+          <a href="#" class="bannerLink shadow"
+            >You can view and trade the collection on the secondary market at
+            OpenSea.</a
+          >
+        </div>
+      </div>
 
-        <!-- colletion -->
-        <div class="banner">
-            <div class="bannerTitle">
-                <h2 class="xl:text-[1.1vw]">New Web Collection</h2>
+      <div class="lines w-[55%] h-[1px] bg-white relative opacity-60"></div>
 
-                <img src="./static/images/diamond.gif" alt="diamond">
-            </div>
+      <!-- lifestyle experience -->
+      <div class="banner gap-2 pb-6">
+        <div class="bannerTitle">
+          <h2 class="xl:text-[1.1vw]">Lifestyle Experiences</h2>
 
-            <div class="imagesBanner  max-lg:flex-col flex-row gap-2 ">
-                <div class="w-full lg:w-[70%]">
-                    <img src="./static/images/minecraft.gif" alt="" class="w-full h-auto">
-                </div>
-                <div class="w-full lg:w-[32%] flex flex-col items-center justify-center gap-4">
-                    <img src="./static/images/asdd.png" alt="">
-                    <img src="./static/images/asdd.png" alt="">
-                </div>
-            </div>
-
-            <div class="bannerLinkContainer">
-                <a href="#" class="bannerLink shadow">You can view and trade the  collection on the secondary market at OpenSea.</a>
-            </div>
-
-
+          <img src="./static/images/diamond.gif" alt="diamond" />
         </div>
 
+        <p class="bannerText w-[95%] relative leading-[1.1]">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed vitae eum
+          similique mollitia labore veniam hic ad unde qui, quis dolor quia
+          sequi consequatur. Placeat officiis beatae assumenda commodi velit!
+        </p>
 
-        <div class="lines w-[55%] h-[1px] bg-white relative opacity-60"></div>
+        <div class="w-full relative bg-white h-[1px] opacity-60"></div>
 
-        <!-- lifestyle experience --> 
-        <div class="banner gap-2 pb-6">
+        <p class="bannerText w-[95%] relative leading-[1.1]">
+          <span class="font-bold"> Lorem ipsum dolor:</span> sit amet
+          consectetur adipisicing elit. Sed vitae eum similique mollitia labore
+          veniam hic ad unde qui, quis dolor quia sequi consequatur. Placeat
+          officiis beatae assumenda commodi velit!
+        </p>
 
-            <div class="bannerTitle">
-                <h2 class="xl:text-[1.1vw]">Lifestyle Experiences</h2>
-
-                <img src="./static/images/diamond.gif" alt="diamond">
-            </div>
-
-            <p class="bannerText w-[95%] relative leading-[1.1]">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed vitae eum similique mollitia labore veniam hic ad unde qui, quis dolor quia sequi consequatur. Placeat officiis beatae assumenda commodi velit!
-            </p>
-
-            <div class="w-full relative bg-white h-[1px] opacity-60"></div>
-
-            <p class="bannerText w-[95%] relative leading-[1.1]">
-               <span class="font-bold"> Lorem ipsum dolor:</span> sit amet consectetur adipisicing elit. Sed vitae eum similique mollitia labore veniam hic ad unde qui, quis dolor quia sequi consequatur. Placeat officiis beatae assumenda commodi velit!
-            </p>
-
-            <div class="imagesBanner text-center mt-4">
-                <img src="./static/images/minecraft.gif" alt="" class="w-[60%] h-auto">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
-            </div>
- 
-            <div class="w-full relative bg-white h-[1px] opacity-60 mt-6"></div>
-
-            <p class="bannerText w-[95%] relative leading-[1.1]">
-                <span class="font-bold"> Lorem ipsum dolor:</span> sit amet consectetur adipisicing elit. Sed vitae eum similique mollitia labore veniam hic ad unde qui, quis dolor quia sequi consequatur. Placeat officiis beatae assumenda commodi velit!
-             </p>
- 
-             <div class="imagesBanner text-center mt-4">
-                 <img src="./static/images/bg4final.webp" alt="" class="w-[60%] h-auto">
-                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
-             </div>
- 
-            <div class="w-full relative bg-white h-[1px] opacity-60 mt-6"></div>
-
-            <p class="bannerText w-[95%] relative leading-[1.1]">
-                <span class="font-bold"> Lorem ipsum dolor:</span> sit amet consectetur adipisicing elit. Sed vitae eum similique mollitia labore veniam hic ad unde qui, quis dolor quia sequi consequatur. Placeat officiis beatae assumenda commodi velit!
-             </p>
- 
-             <div class="imagesBanner text-center mt-4">
-                 <img src="./static/images/diamond.gif" alt="" class="w-[60%] h-auto">
-                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
-             </div>
-
-
+        <div class="imagesBanner text-center mt-4">
+          <img
+            src="./static/images/minecraft.gif"
+            alt=""
+            class="w-[60%] h-auto"
+          />
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
 
-        <div class="lines w-[55%] h-[1px] bg-white relative opacity-60"></div>
+        <div class="w-full relative bg-white h-[1px] opacity-60 mt-6"></div>
 
-          <!-- AStyle Themes banner -->
+        <p class="bannerText w-[95%] relative leading-[1.1]">
+          <span class="font-bold"> Lorem ipsum dolor:</span> sit amet
+          consectetur adipisicing elit. Sed vitae eum similique mollitia labore
+          veniam hic ad unde qui, quis dolor quia sequi consequatur. Placeat
+          officiis beatae assumenda commodi velit!
+        </p>
 
-          <div class="details w-[90%] lg:w-[55%] flex flex-col items-center relative">
-            <h2 class="text-white mb-6 font-bold text-[1.4rem]">Details:</h2>
+        <div class="imagesBanner text-center mt-4">
+          <img
+            src="./static/images/bg4final.webp"
+            alt=""
+            class="w-[60%] h-auto"
+          />
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
 
-            <ul class="w-full flex flex-col items-center gap-4">
-                <div class="list listCircle  ">
-                    <li class="text-black ">
-                        <span class="font-bold">Avatar-first design:</span> Illustrated from the beginning to ensure strong social media profile aesthetics with an emphasis on fashion. Ties into the companion Banner NFT.
-                    </li>
-                </div>
-                <div class="list listCircle  ">
-                    <li class="text-black ">
-                        <span class="font-bold">Chain roll function:</span> Randomized cosmetics are organized into different style themes, with a chance of the consecutive generation sticking to the same theme, designed to organically produce aesthetic coherency.
-                    </li>
-                </div>
-                <div class="list listCircle  ">
-                    <li class="text-black ">
-                        <span class="font-bold">Graded for Drip:</span> 's have ranked badges on a variety of weighted metrics, adding additional layers to a speculative market beyond objective trait scarcity.
-                    </li>
-                </div>
-                <div class="list listCircle  ">
-                    <li class="text-black ">
-                       <span class="font-bold"> Neochibi Aesthetic:</span> All art produced by a team of  Collective artists in a unique childlike take on anime illustration.
-                    </li>
-                </div>
-                <div class="list listCircle  ">
-                    <li class="text-black ">
-                        <span class="font-bold"> Village:</span> Highly curated Discord community and designated launchpad for expansions to the  project, such as virual  raves and event nights.
-                    </li>
-                </div>
-            </ul>
+        <div class="w-full relative bg-white h-[1px] opacity-60 mt-6"></div>
+
+        <p class="bannerText w-[95%] relative leading-[1.1]">
+          <span class="font-bold"> Lorem ipsum dolor:</span> sit amet
+          consectetur adipisicing elit. Sed vitae eum similique mollitia labore
+          veniam hic ad unde qui, quis dolor quia sequi consequatur. Placeat
+          officiis beatae assumenda commodi velit!
+        </p>
+
+        <div class="imagesBanner text-center mt-4">
+          <img
+            src="./static/images/diamond.gif"
+            alt=""
+            class="w-[60%] h-auto"
+          />
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+
+      <div class="lines w-[55%] h-[1px] bg-white relative opacity-60"></div>
+
+      <!-- AStyle Themes banner -->
+
+      <div
+        class="details w-[90%] lg:w-[55%] flex flex-col items-center relative"
+      >
+        <h2 class="text-white mb-6 font-bold text-[1.4rem]">Details:</h2>
+
+        <ul class="w-full flex flex-col items-center gap-4">
+          <div class="list listCircle">
+            <li class="text-black">
+              <span class="font-bold">Avatar-first design:</span> Illustrated
+              from the beginning to ensure strong social media profile
+              aesthetics with an emphasis on fashion. Ties into the companion
+              Banner NFT.
+            </li>
+          </div>
+          <div class="list listCircle">
+            <li class="text-black">
+              <span class="font-bold">Chain roll function:</span> Randomized
+              cosmetics are organized into different style themes, with a chance
+              of the consecutive generation sticking to the same theme, designed
+              to organically produce aesthetic coherency.
+            </li>
+          </div>
+          <div class="list listCircle">
+            <li class="text-black">
+              <span class="font-bold">Graded for Drip:</span> 's have ranked
+              badges on a variety of weighted metrics, adding additional layers
+              to a speculative market beyond objective trait scarcity.
+            </li>
+          </div>
+          <div class="list listCircle">
+            <li class="text-black">
+              <span class="font-bold"> Neochibi Aesthetic:</span> All art
+              produced by a team of Collective artists in a unique childlike
+              take on anime illustration.
+            </li>
+          </div>
+          <div class="list listCircle">
+            <li class="text-black">
+              <span class="font-bold"> Village:</span> Highly curated Discord
+              community and designated launchpad for expansions to the project,
+              such as virual raves and event nights.
+            </li>
+          </div>
+        </ul>
+      </div>
+
+      <div class="banner gap-2 text-left">
+        <div class="bannerTitle text-left">
+          <h2 class="xl:text-[1.1vw]">AStyle Themes</h2>
+
+          <img src="./static/images/diamond.gif" alt="diamond" />
+        </div>
+
+        <p class="bannerText w-[95%]">
+          generate a variety of accessories, but the two primary cosmetics - Hat
+          & Shirt - are each divided into five major style themes inspired by
+          Tokyo fashion tribes:
+        </p>
+
+        <div
+          class="imagesCol flex flex-wrap justify-center items-center px-10 gap-6"
+        >
+          <div class="image w-[27%]">
+            <img src="./static/images/asdd.jpg" alt="" />
+            <p class="">lorem</p>
           </div>
 
-        <div class="banner gap-2 text-left">
+          <div class="image w-[27%]">
+            <img src="./static/images/asdd.jpg" alt="" />
+            <p class="">lorem</p>
+          </div>
 
-            <div class="bannerTitle text-left">
-                <h2 class="xl:text-[1.1vw]">AStyle Themes</h2>
+          <div class="image w-[27%]">
+            <img src="./static/images/asdd.jpg" alt="" />
+            <p class="">lorem</p>
+          </div>
 
-                <img src="./static/images/diamond.gif" alt="diamond">
-            </div>  
+          <div class="image w-[27%]">
+            <img src="./static/images/asdd.jpg" alt="" />
+            <p class="">lorem</p>
+          </div>
 
-            <p class="bannerText w-[95%]">generate a variety of accessories, but the two primary cosmetics - Hat & Shirt - are each divided into five major style themes inspired by Tokyo fashion tribes:</p>
- 
-            <div class="imagesCol flex flex-wrap justify-center items-center px-10 gap-6">
-
-                <div class="image w-[27%]">
-                    <img src="./static/images/asdd.jpg" alt="">
-                    <p class="">lorem</p>
-                </div>
-
-                <div class="image w-[27%]">
-                    <img src="./static/images/asdd.jpg" alt="">
-                    <p class="">lorem</p>
-                </div>
-
-                <div class="image w-[27%]">
-                    <img src="./static/images/asdd.jpg" alt="">
-                    <p class="">lorem</p>
-                </div>
-
-                <div class="image w-[27%]">
-                    <img src="./static/images/asdd.jpg" alt="">
-                    <p class="">lorem</p>
-                </div>
-
-                <div class="image w-[27%]">
-                    <img src="./static/images/asdd.jpg" alt="">
-                    <p class="">lorem</p>
-                </div>
-
-            </div>
-
-            <div class="lines w-full relative bg-white h-[1px] opacity-60 "></div>
-
-            <p class="bannerText w-[97%] pb-2">
-                
-                The bottom border of a  card is defined by its theme(s). A  whose Hat & Shirt cosmetic share the same theme receives +5 on their <a href="#">Drip Score</a>.
-
-            </p>
-
+          <div class="image w-[27%]">
+            <img src="./static/images/asdd.jpg" alt="" />
+            <p class="">lorem</p>
+          </div>
         </div>
 
-        <div class="lines w-[55%] h-[1px] bg-white relative opacity-60"></div>
+        <div class="lines w-full relative bg-white h-[1px] opacity-60"></div>
 
-         <!-- Expansion Packs -->
-         <div class="banner gap-2 pb-6">
+        <p class="bannerText w-[97%] pb-2">
+          The bottom border of a card is defined by its theme(s). A whose Hat &
+          Shirt cosmetic share the same theme receives +5 on their
+          <a href="#">Drip Score</a>.
+        </p>
+      </div>
 
-            <div class="bannerTitle">
-                <h2 class="xl:text-[1.1vw]">Expansion Packs</h2>
+      <div class="lines w-[55%] h-[1px] bg-white relative opacity-60"></div>
 
-                <img src="./static/images/diamond.gif" alt="diamond">
-            </div>
+      <!-- Expansion Packs -->
+      <div class="banner gap-2 pb-6">
+        <div class="bannerTitle">
+          <h2 class="xl:text-[1.1vw]">Expansion Packs</h2>
 
-            <p class="bannerText w-[95%] relative leading-[1.1]">
-                As a <a href="#" class="bannerLink">copylefted</a> brand,  supports a thriving ecosystem of derivative projects from its fan community.  Collective also produces official expansions given away to  holders following our <a href="#" class="bannerLink">hypercitational method</a>.
-            </p>
-
-            <div class="w-full relative bg-white h-[1px] opacity-60"></div>
-
-            <p class="bannerText w-[95%] relative leading-[1.1]">
-                <span class="font-bold">Banners NFT:</span> Generative NFT header photo series, a free mint offered to holders, made in collaboration with the community's submitted captions.
-            </p>
-
-            <div class="imagesBanner text-center mt-4">
-                <img src="./static/images/banners.jpg" alt="" class="w-[80%] h-auto">
-                <a href="#" class="bannerLink">Banners NFT</a>
-            </div>
-
-            <p class="bannerText w-[90%] lg:w-[70%]">
-                Banners recontextualizes the userboxes of early internet personalization into modern social media platforms, with a syncretic design citing wikipedia userpages, forum signatures, and operating system themes and text content detourning the basic element of userbox self-description with absurd, aesthetic and hypercitational references.
-            </p>
- 
-            <div class="w-full relative bg-white h-[1px] opacity-60 mt-6"></div>
-
-            <p class="bannerText w-[95%] relative leading-[1.1]">
-               <span class="font-bold"> Redacted Babies: </span> Companion collection to Maker, as the canonical zoomer little brother to. Where explores Japanese style tribes,  uses the neochibi pfp framework to engage reactionary, schizophrenic and zoomer aesthetics.
-             </p>
- 
-             <div class="imagesBanner text-center mt-4">
-                 <img src="./static/images/asdd.png" alt="" class="w-[60%] h-auto">
-                 <a href="#" class="bannerLink">Remilio #3452</a>
-             </div>
- 
-             <p class="bannerText w-[90%] lg:w-[70%]">
-                 design extends one of the earliest forks of the "OG " edits, predating the  Maker NFT.
-            </p>
-
-            <div class="w-full relative bg-white h-[1px] opacity-60 mt-6"></div>
-
-            <p class="bannerText w-[95%] relative leading-[1.1]">
-            <span class="font-bold">That B.I.T.C.H.:</span> Surprise free mint offered directly from contract, featuring in a bootleg english t-shirt each spelling out B-I-T-C-H with random words.
-              </p>
-  
-              <div class="imagesBanner text-center mt-4">
-                  <img src="./static/images/asdd.png" alt="" class="w-[60%] h-auto">
-                  <a href="#" class="bannerLink"> That B.I.T.C.H.</a>
-              </div>
-
-              <p class="bannerText w-[90%] lg:w-[70%]">
-                Words used for the random generation were sourced from cultural critic Angelicism01's essay on , "NO  NFTS, NOT NOW" with Chief Keef's "Finally Rich", and Chief Keef's "Kush with them Beans," as a playful and irreverent response to the environmental and capitalist criticisms made in Angelicism01's review, as a commentary on the inevitable cultural subsumption process of capitalism.
-           </p>
-
+          <img src="./static/images/diamond.gif" alt="diamond" />
         </div>
 
-      
+        <p class="bannerText w-[95%] relative leading-[1.1]">
+          As a <a href="#" class="bannerLink">copylefted</a> brand, supports a
+          thriving ecosystem of derivative projects from its fan community.
+          Collective also produces official expansions given away to holders
+          following our
+          <a href="#" class="bannerLink">hypercitational method</a>.
+        </p>
 
-        <!-- about banner -->
-        <div class="banner gap-2 text-center">
+        <div class="w-full relative bg-white h-[1px] opacity-60"></div>
 
-            <div class="bannerTitle text-left">
-                <h2 class="xl:text-[1.1vw]">About — プリンセスメーカーについて</h2>
+        <p class="bannerText w-[95%] relative leading-[1.1]">
+          <span class="font-bold">Banners NFT:</span> Generative NFT header
+          photo series, a free mint offered to holders, made in collaboration
+          with the community's submitted captions.
+        </p>
 
-                <img src="./static/images/diamond.gif" alt="diamond">
-            </div>  
-
-            <p class="bannerText w-[95%] text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi similique, expedita iusto vero veniam eveniet fuga sunt deserunt.</p>
-
-            <div class="w-full relative bg-white h-[1px] opacity-60"></div>
-
-            <div class="links flex justify-center items-center gap-3 h-auto lg:h-[30px] flex-wrap">
-
-                <a href="#discord" class="buttonBannerLink"> 
-                     Community Discord
-                </a>
-
-                <div class="lines h-full opacity-60 w-[2px] relative bg-white"></div>
- 
-                <a href="#twitter" class="buttonBannerLink"> 
-                    Twitter
-               </a>
-
-                <div class="lines h-full opacity-60 w-[2px] relative bg-white"></div>
- 
-                <a href="#telegram" class="buttonBannerLink"> 
-                    Telegram
-               </a>
-
-            </div>
-           
-
-            <div class="w-full relative bg-white h-[1px] opacity-60"></div>
-
-            <p class="bannerText">All branding, assets and NFT's are copylefted under the <a href="#license" class="bannerLink">Viral Public License.</a></p>
-
+        <div class="imagesBanner text-center mt-4">
+          <img
+            src="./static/images/banners.jpg"
+            alt=""
+            class="w-[80%] h-auto"
+          />
+          <a href="#" class="bannerLink">Banners NFT</a>
         </div>
 
-        <!-- author -->
-        <div class="banner gap-2 text-center">
+        <p class="bannerText w-[90%] lg:w-[70%]">
+          Banners recontextualizes the userboxes of early internet
+          personalization into modern social media platforms, with a syncretic
+          design citing wikipedia userpages, forum signatures, and operating
+          system themes and text content detourning the basic element of userbox
+          self-description with absurd, aesthetic and hypercitational
+          references.
+        </p>
 
-            <div class="bannerTitle text-left">
-                <h2 class="xl:text-[1.1vw]">Authorship Hash — 著者名ハッシュ</h2>
+        <div class="w-full relative bg-white h-[1px] opacity-60 mt-6"></div>
 
-                <img src="./static/images/diamond.gif" alt="diamond">
-            </div>  
+        <p class="bannerText w-[95%] relative leading-[1.1]">
+          <span class="font-bold"> Redacted Babies: </span> Companion collection
+          to Maker, as the canonical zoomer little brother to. Where explores
+          Japanese style tribes, uses the neochibi pfp framework to engage
+          reactionary, schizophrenic and zoomer aesthetics.
+        </p>
 
-            <p class="bannerText w-[95%] text-left text-[.8rem]">Due to vulnerabilities arising from  Collective's post-authorship ethos and distributed artmaking practice, detailed credits are provided below as a "secure hash" to cross-reference with any individual claiming contributions to our work:</p>
-
-            <span class="w-[95%] font-bold text-white text-left max-md:text-[.7rem]">AUTHORSHIP HASH [SHA1: eeecebb2755eb39baca42e786a6be6b5806decc9]</span>
-
-            <p class="bannerText w-[95%] text-left mt-[-.7rem]">
-             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum expedita nemo dolorum id excepturi ratione dignissimos ullam qui doloribus unde reiciendis quasi, magnam odio ipsam sequi dolor facere impedit inventore vel, molestias architecto? Porro vero fuga quos vitae molestiae consectetur exercitationem, reiciendis, fugiat repudiandae magnam libero inventore sit illum similique tenetur officiis. Nemo repellendus labore, iure rerum cupiditate, veniam nesciunt quasi, saepe dicta pariatur mollitia eaque.
-            </p>
- 
-           
-
-            <div class="w-full relative bg-white h-[1px] opacity-60"></div>
-
-            <p class="bannerText text-left w-[95%] pb-[.5rem]">
-                Not an assignment of rights. If we missed or have erroneously noted a contribution, contact in to report the error.
-            </p>
-
+        <div class="imagesBanner text-center mt-4">
+          <img src="./static/images/asdd.png" alt="" class="w-[60%] h-auto" />
+          <a href="#" class="bannerLink">Remilio #3452</a>
         </div>
 
-        <!-- bg image border -->
-         <div class="w-full h-auto object-contain relative mt-7">
-            <img src="./static/images/bgBorderImg.webp" alt="" class="w-full h-auto object-contain">
-            <img src="./static/images/bg4final.webp" alt="" class="w-full h-auto object-contain">
-         </div>
- 
+        <p class="bannerText w-[90%] lg:w-[70%]">
+          design extends one of the earliest forks of the "OG " edits, predating
+          the Maker NFT.
+        </p>
 
+        <div class="w-full relative bg-white h-[1px] opacity-60 mt-6"></div>
+
+        <p class="bannerText w-[95%] relative leading-[1.1]">
+          <span class="font-bold">That B.I.T.C.H.:</span> Surprise free mint
+          offered directly from contract, featuring in a bootleg english t-shirt
+          each spelling out B-I-T-C-H with random words.
+        </p>
+
+        <div class="imagesBanner text-center mt-4">
+          <img src="./static/images/asdd.png" alt="" class="w-[60%] h-auto" />
+          <a href="#" class="bannerLink"> That B.I.T.C.H.</a>
+        </div>
+
+        <p class="bannerText w-[90%] lg:w-[70%]">
+          Words used for the random generation were sourced from cultural critic
+          Angelicism01's essay on , "NO NFTS, NOT NOW" with Chief Keef's
+          "Finally Rich", and Chief Keef's "Kush with them Beans," as a playful
+          and irreverent response to the environmental and capitalist criticisms
+          made in Angelicism01's review, as a commentary on the inevitable
+          cultural subsumption process of capitalism.
+        </p>
+      </div>
+
+      <!-- about banner -->
+      <div class="banner gap-2 text-center">
+        <div class="bannerTitle text-left">
+          <h2 class="xl:text-[1.1vw]">About — プリンセスメーカーについて</h2>
+
+          <img src="./static/images/diamond.gif" alt="diamond" />
+        </div>
+
+        <p class="bannerText w-[95%] text-left">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+          similique, expedita iusto vero veniam eveniet fuga sunt deserunt.
+        </p>
+
+        <div class="w-full relative bg-white h-[1px] opacity-60"></div>
+
+        <div
+          class="links flex justify-center items-center gap-3 h-auto lg:h-[30px] flex-wrap"
+        >
+          <a href="#discord" class="buttonBannerLink">
+            Community Discord
+          </a>
+
+          <div class="lines h-full opacity-60 w-[2px] relative bg-white"></div>
+
+          <a href="#twitter" class="buttonBannerLink">
+            Twitter
+          </a>
+
+          <div class="lines h-full opacity-60 w-[2px] relative bg-white"></div>
+
+          <a href="#telegram" class="buttonBannerLink">
+            Telegram
+          </a>
+        </div>
+
+        <div class="w-full relative bg-white h-[1px] opacity-60"></div>
+
+        <p class="bannerText">
+          All branding, assets and NFT's are copylefted under the
+          <a href="#license" class="bannerLink">Viral Public License.</a>
+        </p>
+      </div>
+
+      <!-- author -->
+      <div class="banner gap-2 text-center">
+        <div class="bannerTitle text-left">
+          <h2 class="xl:text-[1.1vw]">Authorship Hash — 著者名ハッシュ</h2>
+
+          <img src="./static/images/diamond.gif" alt="diamond" />
+        </div>
+
+        <p class="bannerText w-[95%] text-left text-[.8rem]">
+          Due to vulnerabilities arising from Collective's post-authorship ethos
+          and distributed artmaking practice, detailed credits are provided
+          below as a "secure hash" to cross-reference with any individual
+          claiming contributions to our work:
+        </p>
+
+        <span class="w-[95%] font-bold text-white text-left max-md:text-[.7rem]"
+          >AUTHORSHIP HASH [SHA1:
+          eeecebb2755eb39baca42e786a6be6b5806decc9]</span
+        >
+
+        <p class="bannerText w-[95%] text-left mt-[-.7rem]">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum
+          expedita nemo dolorum id excepturi ratione dignissimos ullam qui
+          doloribus unde reiciendis quasi, magnam odio ipsam sequi dolor facere
+          impedit inventore vel, molestias architecto? Porro vero fuga quos
+          vitae molestiae consectetur exercitationem, reiciendis, fugiat
+          repudiandae magnam libero inventore sit illum similique tenetur
+          officiis. Nemo repellendus labore, iure rerum cupiditate, veniam
+          nesciunt quasi, saepe dicta pariatur mollitia eaque.
+        </p>
+
+        <div class="w-full relative bg-white h-[1px] opacity-60"></div>
+
+        <p class="bannerText text-left w-[95%] pb-[.5rem]">
+          Not an assignment of rights. If we missed or have erroneously noted a
+          contribution, contact in to report the error.
+        </p>
+      </div>
+
+      <!-- bg image border -->
+      <div class="w-full h-auto object-contain relative mt-7">
+        <img
+          src="./static/images/bgBorderImg.webp"
+          alt=""
+          class="w-full h-auto object-contain"
+        />
+        <img
+          src="./static/images/bg4final.webp"
+          alt=""
+          class="w-full h-auto object-contain"
+        />
+      </div>
     </div>
-    
-</body>
+  </body>
 </html>
